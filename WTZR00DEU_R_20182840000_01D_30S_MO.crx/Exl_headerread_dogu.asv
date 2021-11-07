@@ -1,0 +1,58 @@
+function [Rnx_type,Sta_name,Rec_type,XYZ_RNX,Ant_type,Ant_dNEU,obs_num,obs_type,time_of_first_obs,time_system] = Exl_headerread_dogu
+clc
+filernx = fopen('WTZR00DEU_R_20182840000_01D_30S_MO.rnx');
+line1 = fgetl(filernx);
+Rnx_type = line1(1:9);
+frewind(filernx); 
+line1 = fgetl(filernx);
+ 
+while ~feof(filernx)
+    
+    if strfind(line1,'MARKER NAME')
+        Sta_name = line1(1:4);
+        frewind(filernx)    
+    
+    elseif strfind(line1, 'APPROX POSITION XYZ')
+        XYZ_RNX_str = linel(1:42)
+        frewind(filernx)
+        XYZ_RNX(1)str2num(
+        XYZ_RNX(2)
+        XYZ_RNX(3)
+        
+        Rec_type = line1(1:4);
+        
+        
+    elseif strfind(line1, XYZ_RNX)
+        XYZ_RNX = line1(1:4);
+        frewind(filernx)
+        
+    elseif strfind(line1, Ant_type)
+        Ant_type = line1(1:4);
+        frewind(filernx)
+    
+    elseif strfind(line1, Ant_dNEU)
+        Ant_dNEU = line1(1:4);
+        frewind(filernx)
+    
+    elseif strfind(line1, obs_num)
+        obs_num = line1(1:4);
+        frewind(filernx)
+        
+    elseif strfind(line1, obs_type)
+        obs_type = line1(1:4);
+        frewind(filernx)
+        
+    elseif strfind(line1, time_of_first_obs)
+        time_of_first_obs = line1(1:4);
+        frewind(filernx)
+    
+    elseif strfind(line1, time_system)
+        time_system = line1(1:4);
+        frewind(filernx)   
+        
+    
+    end 
+    line1 = fgetl(filernx);
+ 
+end
+fclose(filernx);
