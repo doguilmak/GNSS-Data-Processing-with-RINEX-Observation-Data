@@ -1,0 +1,21 @@
+function G_obs = Ex2_obsread_dogu
+
+clc
+obs_num = 16;
+fid = fopen('WTZR00DEU_R_20182840000_01D_30S_MO');
+
+while ~feof(filernx)
+    
+    tline = fgetl(filernx);
+    
+    if strfind(tline,'END OF HEADER')
+        disp(tline)
+        
+
+    
+    end            
+
+end
+
+
+fclose(fid)
