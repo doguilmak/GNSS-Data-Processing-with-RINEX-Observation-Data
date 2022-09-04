@@ -234,6 +234,8 @@ L_2 \\
 L_k
 \end{bmatrix}$$
 
+<br>
+
 <h5> Accuracy Analysis</h5>
 
 $$A^TPAX-A^TPL=0$$
