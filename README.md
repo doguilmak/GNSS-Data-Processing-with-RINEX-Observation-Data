@@ -52,7 +52,7 @@ There are three quantities in that file:
 2.	<b><i>Pseudo-Range (PR)</i></b> is the distance from the receiver antenna to the satellite antenna including receiver and satellite clock offsets (and other biases, such as atmospheric delays:
 
 	$c=2.997 \cdot 10^{8} \dfrac{m}{s}$
-	$$PR = distance + c * (receiver \ clock \ offset \ – \ satellite \ clock \ offset) + other \ biases$$
+	$PR = distance + c * (receiver \ clock \ offset \ – \ satellite \ clock \ offset) + other \ biases$
 
 3.	<b><i>Pseudo-Range (PR)</i></b> is the carrier phase measured in whole cycles.
 
