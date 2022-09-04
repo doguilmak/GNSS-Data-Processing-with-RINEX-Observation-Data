@@ -230,7 +230,7 @@ P_1 & & \\
 
 <br>
 
-$$V = \begin{bmatrix}  
+$$L = \begin{bmatrix}  
 L_1 \\  
 L_2 \\ 
 \vdots \\
