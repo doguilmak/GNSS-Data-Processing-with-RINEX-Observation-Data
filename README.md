@@ -55,7 +55,7 @@ There are three quantities in that file:
 	
 	$PR = distance + c * (receiver \ clock \ offset \ – \ satellite \ clock \ offset) + other \ biases$
 
-3.	<b><i>Pseudo-Range (PR)</i></b> is the carrier phase measured in whole cycles.
+3.	<b><i>Phase</i></b> is the carrier phase measured in whole cycles.
 
 <h4>Satellite Numbers</h4>
 
