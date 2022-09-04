@@ -8,7 +8,7 @@ Within this repository, you can find the tasks of **GNSS Data Processing** cours
 
 ## Presentations
 
-<h3>RINEX The Receiver Independent Exchange Format<h3>
+<h3>RINEX The Receiver Independent Exchange Format</h3>
 
 <p>Different manufacturers of GPS receivers had their own format of data file. During large GPS observation campain different GPS receivers have been involved.
 Hence, a need for one common format of data file arised.</p>
