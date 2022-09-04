@@ -121,7 +121,7 @@ $$V^s = \dfrac{\partial\rho_{r}^{s}}{\partial x^0} dx + \dfrac{\partial\rho_{r}^
 
 <h4> System of the Residual Equations</h4>
 
-$$ V^{s1} = \dfrac{\partial\rho_{r}^{s1}}{\partial x^0} dx + \dfrac{\partial\rho_{r}^{s1}}{\partial y^0} dy +\dfrac{\partial\rho_{r}^{s1}}{\partial z^0} dz + cdt_r - (P_{r}^{s1} - dT_{r}^{s1} - dI_{r}^{s1} - \rho^{0s1}) \\ V^{s2} = \dfrac{\partial\rho_{r}^{s2}}{\partial x^0} dx + \dfrac{\partial\rho_{r}^{s2}}{\partial y^0} dy +\dfrac{\partial\rho_{r}^{s2}}{\partial z^0} dz + cdt_r - (P_{r}^{s2} - dT_{r}^{s2} - dI_{r}^{s2} - \rho^{0s2}) \\ \vdots \\ V^{sn} = \dfrac{\partial\rho_{r}^{sn}}{\partial x^0} dx + \dfrac{\partial\rho_{r}^{sn}}{\partial y^0} dy +\dfrac{\partial\rho_{r}^{sn}}{\partial z^0} dz + cdt_r - (P_{r}^{sn} - dT_{r}^{sn} - dI_{r}^{sn} - \rho^{0sn})$$
+$$ V^{s1} = \dfrac{\partial\rho_{r}^{s1}}{\partial x^0} dx + \dfrac{\partial\rho_{r}^{s1}}{\partial y^0} dy +\dfrac{\partial\rho_{r}^{s1}}{\partial z^0} dz + cdt_r - (P_{r}^{s1} - dT_{r}^{s1} - dI_{r}^{s1} - \rho^{0s1})\\ V^{s2} = \dfrac{\partial\rho_{r}^{s2}}{\partial x^0} dx + \dfrac{\partial\rho_{r}^{s2}}{\partial y^0} dy +\dfrac{\partial\rho_{r}^{s2}}{\partial z^0} dz + cdt_r - (P_{r}^{s2} - dT_{r}^{s2} - dI_{r}^{s2} - \rho^{0s2})\\ \vdots \\ V^{sn} = \dfrac{\partial\rho_{r}^{sn}}{\partial x^0} dx + \dfrac{\partial\rho_{r}^{sn}}{\partial y^0} dy +\dfrac{\partial\rho_{r}^{sn}}{\partial z^0} dz + cdt_r - (P_{r}^{sn} - dT_{r}^{sn} - dI_{r}^{sn} - \rho^{0sn})$$
 
 <br>
 
