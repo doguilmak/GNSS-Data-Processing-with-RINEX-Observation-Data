@@ -131,7 +131,7 @@ $$V^{sn} = \dfrac{\partial\rho_{r}^{sn}}{\partial x^0} dx + \dfrac{\partial\rho_
 
 <br>
 
-$\rho_{r}^{s} = \sqrt{(x^s - x_r)^2+(y^s - y_r)^2+(z^s - z_r)^2}$
+$$\rho_{r}^{s} = \sqrt{(x^s - x_r)^2+(y^s - y_r)^2+(z^s - z_r)^2}$$
 
 <br>
 
