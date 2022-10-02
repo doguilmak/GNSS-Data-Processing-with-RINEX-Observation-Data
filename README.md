@@ -4,10 +4,14 @@
 
 <small>Picture Source: <a href="https://www.hytera.com/iwov-resources/hytera/02_products/4_banner_image/">hytera</a>
 
+<br>	
+	
 <h2>Project Description</h2>
 
 Within this repository, you can find the tasks of **GNSS Data Processing** course given by **Prof. Dr. Sławomir Cellmer**. You can find the process and mathematical equations for the data processing with explanations in .pdf files in the ***PDF's*** folder. From there, you can have an idea about the course content and learn how the studies are done step by step. The aim of the course is, using mathematical formulas and filtering GNSS data where we get from [BKG](https://igs.bkg.bund.de/) website. Studies were conducted on **6 different exercises**. The .txt files were given to us by the Professor.
 
+<br>	
+	
 <h2>Presentations</h2>
 
 <h3>RINEX The Receiver Independent Exchange Format</h3>
@@ -40,6 +44,8 @@ Three <i>ASCII</i> file types:
 	<li>Meteorological data file</li>
 </ul>
 
+<br>	
+	
 <h4>Observation Data File</h4>
 
 There are three quantities in that file:
@@ -56,6 +62,8 @@ There are three quantities in that file:
 	$PR = distance + c * (receiver \ clock \ offset \ – \ satellite \ clock \ offset) + other \ biases$
 
 3.	<b><i>Phase</i></b> is the carrier phase measured in whole cycles.
+
+<br>	
 
 <h4>Satellite Numbers</h4>
 
@@ -253,6 +261,8 @@ L_k
 
 $$A^TPAX-A^TPL=0$$
 $$X=(A^TPA)^{-1} \ A^TPL$$
+
+<br>	
 
 Parameter covariance matrix:
 
