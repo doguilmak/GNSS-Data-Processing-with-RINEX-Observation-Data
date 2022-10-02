@@ -79,6 +79,8 @@ More about topic:
  - [RINEX Observation Data File: Data record (rinex2.pdf)](https://github.com/doguilmak/GNSS-Data-Processing-with-RINEX-Observation-Data/blob/main/PDF%27s/rinex2.pdf)
  - [RINEX The Receiver Independent Exchange Format - IGS / RTCM-SC104 (rinex304.pdf)](https://github.com/doguilmak/GNSS-Data-Processing-with-RINEX-Observation-Data/blob/main/PDF%27s/rinex304.pdf)
 
+<br>
+
 <h3> Equations of the Code Observation<h3>
 
 <h4>Mathematical Model of the Code Observation</h4>
@@ -106,6 +108,8 @@ $dI_{r}^{s} =$  Ionospheric correction
 
 $\epsilon_p =$  Unmodelled error
 
+<br>
+
 <h4> Observation Equation of the Code Observation</h4>
 
 $$P_{r}^{s} - dT_{r}^{s} - dI_{r}^{s} + v_P = \rho_{r}^{s} + cdt_r$$
@@ -118,9 +122,13 @@ $V_p = - \epsilon_p$
 
 $$P_{r}^{s} - dT_{r}^{s} - dI_{r}^{s} + v_P = \dfrac{\partial\rho_{r}^{s}}{\partial x^0} dx + \dfrac{\partial\rho_{r}^{s}}{\partial y^0} dy +\dfrac{\partial\rho_{r}^{s}}{\partial z^0} dz + \rho^0 + cdt_r$$
 
+<br>
+
 <h4>Linear Form of the Residual Equation</h4>
 
 $$V^s = \dfrac{\partial\rho_{r}^{s}}{\partial x^0} dx + \dfrac{\partial\rho_{r}^{s}}{\partial y^0} dy +\dfrac{\partial\rho_{r}^{s}}{\partial z^0} dz + cdt_r - (P_{r}^{s} - dT_{r}^{s} - dI_{r}^{s} - \rho^0)$$
+
+<br>
 
 <h4> System of the Residual Equations</h4>
 
@@ -190,6 +198,8 @@ $$L= \begin{bmatrix}
 More about topic: 
 
  - [Mathematical Model of the Code Observation (SPP1.pdf)](https://github.com/doguilmak/GNSS-Data-Processing-with-RINEX-Observation-Data/blob/main/PDF's/SPP1.pdf)
+
+<br>
 
 <h4>Multi-epoch (number of epochs: k)</h4>
 
@@ -280,6 +290,8 @@ More about topic:
 
  - [Multi-epoch (SPP-multi-epoch.pdf)](https://github.com/doguilmak/GNSS-Data-Processing-with-RINEX-Observation-Data/blob/main/PDF's/SPP-multi-epoch.pdf)
  - [Adjustment (adjust-general.pdf)](https://github.com/doguilmak/GNSS-Data-Processing-with-RINEX-Observation-Data/blob/main/PDF%27s/adjust-general.pdf)
+
+<br>
 
 ## Contact Me
 
